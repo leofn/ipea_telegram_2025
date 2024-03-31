@@ -4,17 +4,16 @@ author: "Leonardo F. Nascimento"
 date: today
 format: 
   revealjs:
-    title-block-banner: true
     logo: "images/logo.png"
     width: 1600
     height: 900
     self-contained: false
     incremental: false
     footer: "Slides by [Leonardo F. Nascimento](https://leofn.com) (@leofn3), made with [Quarto](https://quarto.org/docs/presentations/revealjs/index.html). Code available [on GitHub](https://github.com/leofn/2022-latinr-quarto)."
-    theme: ["serif"]
+    theme: ["simple"]
     slide-number: c/t
     title-slide-attributes:
-      data-background-image: "colored-particles/index.html"
+      data-background-image: background-iframe="colored-particles/index.html"
       data-background-size: cover
     show-slide-number: all
     hash-type: number
@@ -22,7 +21,7 @@ format:
     preload-iframes: true
 ---
 
-#  {background-iframe="colored-particles/index.html"}
+## 
 
 <div style="text-align: center"> **LABORATÓRIO DE HUMANIDADES DIGITAIS DA UFBA** </div>
 
@@ -40,25 +39,35 @@ format:
 
     -   Coordenador do LABHDUFBA
 
-    -   Químico, Psicólogo, Cientista Social Computacional
+    -   Químico, Psicólogo, Doutor em Sociologia, Cientista Social Computacional
+    
+    -   R, Python, Bash, ElasticSearch/Kibana, Docker
 :::
-
 ::: {.column width="40%"}
 ![](images/logo.png)
 :::
 :::
 
-# Ecossistema multiplataforma de desinformação e radicalização?
+## Ecossistema multiplataforma de desinformação e radicalização
 
-## 
+<br><br>
 
+::: columns
+::: {.column width="40%"}
+<br>
 <div style="text-align: justify"> A utilização **sistemática e estratégica** de ferramentas, tecnologias e serviços que permitem a criação e disseminação de desinformação e incitação à radicalização política em **diferentes plataformas**, como redes sociais, sites de notícias e aplicativos de mensagens. </div>
 
+::: 
+::: {.column width="60%"}
 
 ![](images/DALL.webp){fig-align="center"}
 
+:::
+:::
 
-# 
+# Investigação sobre o Telegram desde 2021
+
+## 
 
 ![](images/dashboard_home-02 (5).png){fig-align="center"}
 
