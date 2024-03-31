@@ -1,120 +1,86 @@
 ---
-title: "Comunicando seus resultados: Criando apresentações com **Quarto**"
-author: "Beatriz Milz"
-date: "Latin-R 2022 | Outubro 2022   <br><br> Slides: **beatrizmilz.github.io/2022-latinr-quarto-tutorial** "
+title: "**Desafios da pesquisa sobre o ecossistema multiplataforma de desinformação e radicalização no Brasil**"
+author: "Leonardo F. Nascimento"
+date: today
 format: 
   revealjs:
+    title-block-banner: true
     logo: "images/logo.png"
     width: 1600
     height: 900
     self-contained: false
     incremental: false
-    footer: "Slides by [Beatriz Milz](https://beamilz.com) (@BeaMilz), made with [Quarto](https://quarto.org/docs/presentations/revealjs/index.html). Code available [on GitHub](https://github.com/beatrizmilz/2022-latinr-quarto-tutorial)."
-    theme: ["custom.scss"]
+    footer: "Slides by [Leonardo F. Nascimento](https://leofn.com) (@leofn3), made with [Quarto](https://quarto.org/docs/presentations/revealjs/index.html). Code available [on GitHub](https://github.com/leofn/2022-latinr-quarto)."
+    theme: ["serif"]
     slide-number: c/t
+    title-slide-attributes:
+      data-background-image: "colored-particles/index.html"
+      data-background-size: cover
     show-slide-number: all
     hash-type: number
     preview-links: false
+    preload-iframes: true
 ---
 
-## Beatriz Milz 🇧🇷 {.center .aboutmeslide}
+#  {background-iframe="colored-particles/index.html"}
+
+<div style="text-align: center"> **LABORATÓRIO DE HUMANIDADES DIGITAIS DA UFBA** </div>
 
 ::: columns
 ::: {.column width="60%"}
 -   Contato
 
-    -   Twitter: [\@BeaMilz](https://twitter.com/BeaMilz)
+    -   Twitter: [\@labhdufba](https://twitter.com/labhdufba)
 
-    -   Blog: [beamilz.com](https://beamilz.com)
+    -   Website: [labhd.ufba.br](https://www.labhd.ufba.br/)
 
 -   Sobre mim
 
-    -   Co-organizadora: R-Ladies São Paulo / Latin-R / satRday São Paulo
+    -   Professor da UFBA 
 
-    -   Professora na [Curso-R](https://curso-r.com/)
+    -   Coordenador do LABHDUFBA
 
-    -   Instrutora de Tidyverse certificada pela RStudio
+    -   Químico, Psicólogo, Cientista Social Computacional
 :::
 
 ::: {.column width="40%"}
-![](images/octocat-1656339210373.png)
+![](images/logo.png)
 :::
 :::
 
-# Tarefas iniciais
+# Ecossistema multiplataforma de desinformação e radicalização?
 
-Caso não tenha, crie uma conta nos serviços:
+## 
 
-- RStudio Cloud: <https://rstudio.cloud/>
-
-- QuartoPub: <https://quartopub.com/>
+<div style="text-align: justify"> A utilização **sistemática e estratégica** de ferramentas, tecnologias e serviços que permitem a criação e disseminação de desinformação e incitação à radicalização política em **diferentes plataformas**, como redes sociais, sites de notícias e aplicativos de mensagens. </div>
 
 
-Dica: Você pode criar uma conta vinculada ao Gmail ou GitHub.
+![](images/DALL.webp){fig-align="center"}
 
 
-# Objetivos de aprendizagem
+# 
 
-Responder as seguintes perguntas....
+![](images/dashboard_home-02 (5).png){fig-align="center"}
 
-⬜ O que é o Quarto?
 
-⬜ Como criar um documento simples ?
+# Desafios
 
-⬜ Como criar uma apresentação?
+<br><br>
 
-⬜ Como disponibilizar a apresentação online?
+::: {.incremental}
+- Fomento à pesquisa
+- Espaço de debates
+- Complexidade dos dados
+- Sem API não há solução 
 
-⬜ Como alterar o estilo da apresentação?
-
-# Sobre esse tutorial....
-
-## Faremos muita prática!
-
-![](images/livecoding.jpg){fig-align="center"}
-
-::: footer
-Arte por [Allison Horst](https://mobile.twitter.com/allison_horst)
 :::
 
-## Tem novidades surgindo com frequência!
+#  {background-iframe="colored-particles/index.html"}
 
-![](images/something-new.jpg){fig-align="center"}
-
-::: footer
-Arte por [Allison Horst](https://mobile.twitter.com/allison_horst)
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Moving Waves
 :::
-
-# O que é o Quarto?
-
-## Seria o Quarto...
-
-::: r-stack
-![](images/paste-614B8F2C.png){.fragment fig-align="center"}
-
-![](images/paste-23FE8FE7.png){.fragment .absolute top="15%" left="40%" width="400" height="400"}
-:::
-
-## O que é o Quarto?
-
--   O Quarto é um sistema de escrita técnica e científica, de código aberto.
-
-![A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto](images/quarto_schematic.png){fig-align="center" out.width="50%"}
-
-::: footer
-Arte por [Allison Horst](https://mobile.twitter.com/allison_horst).
-:::
-
-
-## Por que o Quarto existe?
-
--   **O Quarto é a nova geração do R Markdown!**
-
--   O rmarkdown é um pacote em R. Para usá-lo, é necessário ter o R instalado (mesmo que o seu arquivo não tenha conteúdos em R).
-
--   O R Markdown é uma ferramenta muito boa para escrita técnica e científica reprodutível, possibilitando criar vários tipos de documentos. Porém, **o seu uso acaba ficando limitado às pessoas que usam R**.
-
--   **O Quarto é um software novo, que não depende do R**!
 
 ::: notes
 -   Por exemplo: Você pode usar o VSCode como IDE, escrever um documento com código em Python e gerar o documento final. Tudo isso sem precisar ter o R e/ou RStudio instalados.
