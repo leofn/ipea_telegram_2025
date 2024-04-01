@@ -21,7 +21,7 @@ format:
 ## {background-iframe="colored-particles/index.html"}
 
 <br><br>
-<div style="text-align: center; font-size: 100px;"> <strong>Desafios da pesquisa sobre o ecossistema multiplataforma de desinformação e radicalização no Brasil</strong> </div>
+<div style="text-align: center; font-size: 100px;"> <strong>Pesquisando o ecossistema multiplataforma de desinformação e radicalização no Brasil</strong> </div>
 <div style="text-align: center; font-size: 60px;"> <strong>Leonardo F. Nascimento</strong> </div>
 <div style="text-align: center; font-size: 50px;"> 02/04/2024 </div>
 
