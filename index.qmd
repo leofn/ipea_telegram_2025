@@ -23,6 +23,8 @@ format:
 <div style="text-align: center; font-size: 60px;"> <strong>Leonardo F. Nascimento</strong> </div>
 <div style="text-align: center; font-size: 50px;"> 02/04/2024 </div>
 
+![](images/qrcode.png){.absolute bottom=0 right=5 width="275" height="300"}
+
 ## 
 
 <div style="text-align: center; font-size: 55px;"> <strong>LABORATÓRIO DE HUMANIDADES DIGITAIS DA UFBA</strong> </div>
@@ -85,28 +87,44 @@ format:
 
 ##
 
-<div style="text-align: center; font-size: 55px;"> <strong>Aliar raciocínio computacional com a compreensão interpretativa das ciências sociais</strong> </div>
+<div style="text-align: center; font-size: 55px;"> <strong>Aliança entre raciocínio computacional com a compreensão interpretativa das ciências sociais</strong> </div>
 <br><br>
 
 ::: columns
 ::: {.column width="60%"}
-#### Soluções baseadas em ferramentas computacionais
+::: {.incremental}
+
+- **Ciência de dados com ciências sociais**
 <br><br>
 
-- 
+- **Rastreabilidade** total dos conteúdos 
 <br><br>
 
+- Detecção de **"talkatives"** e porta-vozes
+<br><br>
 
+- **Fine-tunning de modelos de NLP**: NER, BERTopic e [detecção de racismo](https://huggingface.co/leofn3/modelo_racismo_setfit_5jan24)
+<br><br>
+
+- Telegram enquanto **espaço de experimentações**
+
+:::
 :::
 ::: {.column width="40%"}
 
-![](images/logo.png)
+Artigos
+
+::: {style="font-size: 80%;"}
+
+###### [Públicos refratados: grupos de extrema-direita brasileiros na plataforma Telegram](https://revista.internetlab.org.br/wp-content/uploads/2023/01/publicos.pdf)
+____
+###### [Demarcating patriotic science on digital platforms: Covid-19, chloroquine and the institutionalisation of ignorance in Brazil](https://www.tandfonline.com/doi/abs/10.1080/09505431.2022.2105691)
+____
+###### [“Intankaveis contra o Bostil”: racismo, misoginia e anti-semitismo em chats do Telegram (2020-2023) - em Breve!](https://periodicosnic.emnuvens.com.br/revista/index)
 
 :::
 :::
-
-
-
+:::
 ## Ecossistema multiplataforma de desinformação e radicalização
 
 <br><br>
@@ -174,16 +192,65 @@ format:
 
 ::: {.incremental}
 
-- dados digitais enquanto um **"objeto epistêmico complexo"** (Aradau & Blanke, 2015)
+- Dados digitais contituem um **"objeto epistêmico complexo"** (Aradau & Blanke, 2015)
 <br><br>
 
-- **estratégia penelopeana de desinformação e radicalização**
+- **Estratégia penelopeana de desinformação e radicalização**
 <br><br>
 
 - Coleta de dados em tempo real: a **vigilância-como-método**
 <br><br>
 
-- Necessidade de **atualização urgente do Sistema CEP/Conep** diante das pesquisas digitais 
+- Necessidade de **atualização do Sistema CEP/Conep** diante das pesquisas com dados digitais 
+<br><br>
+
+- Esboçar de modo inequívoco a **relação dos dados coletados de plataformas digitais com a LGPD** 
+
+:::
+
+# 
+
+<div style="text-align: center; font-size: 55px;"> <strong>ESPAÇO DE DEBATES</strong> </div>
+<br>
+
+::: {.incremental}
+
+- As **pesquisas brasileiras sobre desinformação** tem produzido insights relevantes
+<br><br>
+
+- Necessidade de uma **agenda regular sobre desinformação**
+<br><br>
+
+- Tentar diminuir as **disputas do campo acadêmico**
+<br><br>
+
+- Não existe uma autoridade única sobre desinformação no Brasil: **"tweets" e "textos de opinião" não devem ser comparados com a produção científica**   
+
+:::
+
+# 
+
+<div style="text-align: center; font-size: 55px;"> <strong>FOMENTO</strong> </div>
+<br>
+
+::: {.incremental}
+
+- **Divisão igualitária de recursos com a região norte-nordeste**
+<br><br>
+
+- **Estrutura pública de servidores (VMs) e armazenamento (S3)** ou "cotas em nuvens" 
+<br><br>
+
+- **Ampliação dos valores e das modalidades de bolsas de pesquisa**
+<br><br>
+
+- Financiamento de novas graduações e pós-graduações em **Humanidades Digitais** e/ou modalidades híbridas  
 <br><br>
 
 :::
+
+
+# {background-iframe="colored-particles/index.html"}
+
+<br>
+<div style="text-align: center; font-size: 200px;"> <strong>Obrigado!</strong> </div>
