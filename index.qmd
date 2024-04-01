@@ -6,7 +6,7 @@ format:
     height: 900
     self-contained: false
     incremental: false
-    footer: "Slides by [Leonardo F. Nascimento](https://leofn.com) (@leofn3), made with [Quarto](https://quarto.org/docs/presentations/revealjs/index.html). Code available [on GitHub](https://github.com/leofn/2022-latinr-quarto)."
+    footer: "Slides by [Leonardo F. Nascimento](https://leofn.com) (@leofn3). Code available [on GitHub](https://github.com/leofn/combate_desinformacao_2024). Thanks [Bia Milz](https://beamilz.com/) and [Icaro Bernardes](https://github.com/IcaroBernardes)"
     theme: ["simple"]
     slide-number: c/t
     title-slide-attributes:
@@ -17,8 +17,6 @@ format:
     preview-links: false
     preload-iframes: true
 ---
-
-## {background-iframe="moving-waves/index.html"}
 
 <br><br>
 <div style="text-align: center; font-size: 100px;"> <strong>Desafios da pesquisa sobre o ecossistema multiplataforma de desinformação e radicalização no Brasil</strong> </div>
@@ -165,6 +163,27 @@ format:
 <br><br>
 
 - Pensar os **dados digitais enquanto memória social**
+<br><br>
+
+:::
+
+# 
+
+<div style="text-align: center; font-size: 55px;"> <strong>COMPLEXIDADE METODOLÓGICA</strong> </div>
+<br>
+
+::: {.incremental}
+
+- dados digitais enquanto um **"objeto epistêmico complexo"** (Aradau & Blanke, 2015)
+<br><br>
+
+- **estratégia penelopeana de desinformação e radicalização**
+<br><br>
+
+- Coleta de dados em tempo real: a **vigilância-como-método**
+<br><br>
+
+- Necessidade de **atualização urgente do Sistema CEP/Conep** diante das pesquisas digitais 
 <br><br>
 
 :::
