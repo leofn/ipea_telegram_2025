@@ -32,21 +32,24 @@ format:
 
 ::: columns
 ::: {.column width="60%"}
--   Contato
 
-    -   Twitter: [\@labhdufba](https://twitter.com/labhdufba)
+-   Sobre mim:
 
-    -   Website: [labhd.ufba.br](https://www.labhd.ufba.br/)
-
--   Sobre mim
-
-    -   Professor da UFBA 
-
-    -   Coordenador do LABHDUFBA
+    -   Professor da UFBA e coordenador do LABHDUFBA
 
     -   Químico, Psicólogo, Doutor em Sociologia, Cientista Social Computacional
     
     -   R, Python, Bash, ElasticSearch/Kibana, Docker
+
+-   Contatos pessoais:
+
+    - [Email](mailto:leofn3@gmail.com) - [Website](https://leofn.com/) -  [Twitter](https://twitter.com/leofn3)
+
+-   Contatos do LABHDUFBA:  
+
+    - [Email](mailto:labhdufba@gmail.com) - [Website](https://labhd.ufba.br) -  [Twitter](https://twitter.com/labhdufba)
+
+
 :::
 ::: {.column width="40%"}
 ![](images/logo.png)
@@ -112,19 +115,22 @@ format:
 :::
 ::: {.column width="40%"}
 
-Artigos
-
 ::: {style="font-size: 80%;"}
+::: {.incremental}
 
-###### [Públicos refratados: grupos de extrema-direita brasileiros na plataforma Telegram](https://revista.internetlab.org.br/wp-content/uploads/2023/01/publicos.pdf)
+
+- [Públicos refratados: grupos de extrema-direita brasileiros na plataforma Telegram](https://revista.internetlab.org.br/wp-content/uploads/2023/01/publicos.pdf)
 ____
-###### [Demarcating patriotic science on digital platforms: Covid-19, chloroquine and the institutionalisation of ignorance in Brazil](https://www.tandfonline.com/doi/abs/10.1080/09505431.2022.2105691)
+- [Demarcating patriotic science on digital platforms: Covid-19, chloroquine and the institutionalisation of ignorance in Brazil](https://www.tandfonline.com/doi/abs/10.1080/09505431.2022.2105691)
 ____
-###### [“Intankaveis contra o Bostil”: racismo, misoginia e anti-semitismo em chats do Telegram (2020-2023) - em Breve!](https://periodicosnic.emnuvens.com.br/revista/index)
+- [“Intankaveis contra o Bostil”: racismo, misoginia e anti-semitismo em chats do Telegram (2020-2023) - em Breve!](https://periodicosnic.emnuvens.com.br/revista/index)
 
 :::
 :::
 :::
+:::
+
+
 ## Ecossistema multiplataforma de desinformação e radicalização
 
 <br><br>
@@ -133,6 +139,7 @@ ____
 ::: {.column width="40%"}
 <br>
 <div style="text-align: justify"> A utilização **sistemática e estratégica** de ferramentas, tecnologias e serviços que permitem a criação e disseminação de desinformação e incitação à radicalização política em **diferentes plataformas**, como redes sociais, sites de notícias e aplicativos de mensagens. </div>
+
 
 ::: 
 ::: {.column width="60%"}
