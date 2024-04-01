@@ -199,7 +199,7 @@ ____
 
 ::: {.incremental}
 
-- Dados digitais contituem um **"objeto epistêmico complexo"** (Aradau & Blanke, 2015)
+- Dados digitais contituem um **"objeto epistêmico complexo"** [Aradau & Blanke, 2015](http://dx.doi.org/10.1177/2053951715609066)
 <br><br>
 
 - **Estratégia penelopeana de desinformação e radicalização**
