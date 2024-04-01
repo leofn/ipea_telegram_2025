@@ -58,23 +58,23 @@ format:
 
 ##
 
-<div style="text-align: center; font-size: 55px;"> <strong>Desde 2020, o LABHDUFBA investiga grupos e canais do  Telegram...</strong> </div>
+<div style="text-align: center; font-size: 55px;"> <strong>O LABHDUFBA investiga, desde 2020, grupos e canais do  Telegram...</strong> </div>
 <br>
 
 ::: columns
 ::: {.column width="65%"}
 ::: {.incremental}
 
+- Em parceria com PPGAS/UFSC (Prof. Letícia Cesarino) e apoio do InternetLab
+<br><br>
+
 - \+ de 50 milhões de mensagens
 <br><br>
 
-- \+ 2.8 milhões de imagens
+- \+ 2.8 milhões de imagens e \+ de 700 mil vídeos
 <br><br>
 
-- \+ 700 mil vídeos
-<br><br>
-
-- \+ 500 mil links do Youtube
+- \+ de 500 mil links do Youtube
 <br><br>
 
 - \+ 20 Terabytes de dados
@@ -152,7 +152,7 @@ ____
 
 #
 
-<div style="text-align: center; font-size: 55px;"> <strong>DESAFIOS</strong> </div>
+<div style="text-align: center; font-size: 55px;"> <strong>QUAIS SÃO OS DESAFIOS?</strong> </div>
 <br><br>
 
 ::: {.incremental}
@@ -211,7 +211,7 @@ ____
 - Necessidade de **atualização do Sistema CEP/Conep** diante das pesquisas com dados digitais 
 <br><br>
 
-- Esboçar de modo inequívoco a **relação dos dados coletados de plataformas digitais com a LGPD** 
+- Esboçar, de modo inequívoco, a **relação dos dados coletados de plataformas digitais com a LGPD** 
 
 :::
 
@@ -248,7 +248,7 @@ ____
 - **Estrutura pública de servidores (VMs) e armazenamento (S3)** ou "cotas em nuvens" 
 <br><br>
 
-- **Ampliação dos valores e das modalidades de bolsas de pesquisa**
+- **Ampliação dos valores das diferentes modalidades de bolsas de pesquisa, especialmente Iniciação Científica**
 <br><br>
 
 - Financiamento de novas graduações e pós-graduações em **Humanidades Digitais** e/ou modalidades híbridas  
