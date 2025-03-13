@@ -306,10 +306,8 @@ ____
 
 ## 
 
-![](images/kg2.png){fig-align="center"}
-
-
-##
+<!-- Inserindo o iframe corretamente -->
+<iframe src="./html/grafo_interativo.html" style="width: 300vw; height: 500vh; border: none;"></iframe>
 
 ##
 
@@ -414,7 +412,7 @@ ____
 
 # 
 
-<div style="text-align: center; font-size: 55px;"> <strong>Categorizar imagens de grupos anti-vacina em grupos do Telegram</strong> </div>
+<div style="text-align: center; font-size: 55px;"> <strong>Clusterização de imagens de grupos anti-vacina em grupos do Telegram</strong> </div>
 <br>
 
 ::: {.incremental}
@@ -440,7 +438,38 @@ ____
 
 #
 
-![](images/pecs.png)
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 0</strong> </div> 
+
+
+![](images/mosaico_cluster_0.jpg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 11</strong> </div> 
+
+
+![](images/mosaico_cluster_111.jpg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 6</strong> </div> 
+
+
+![](images/mosaico_cluster_66.jpg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 7</strong> </div> 
+
+
+![](images/mosaico_cluster_77.jpg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 2</strong> </div> 
+
+
+![](images/mosaico_cluster_2.jpg){fig-align="center"}
 
 
 # {background-iframe="colored-particles/index.html"}
