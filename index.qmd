@@ -160,7 +160,7 @@ ____
 - Complexidade metodológica
 <br><br>
 
-- Acesso a recursos computacionais
+- Recursos computacionais
 
 :::
 
@@ -258,39 +258,158 @@ ____
 
 # 
 
-<div style="text-align: center; font-size: 55px;"> <strong>Uso de redes semântica para análise de polarização política em momentos extremos</strong> </div>
+<div style="text-align: center; font-size: 55px;"> <strong>Resultados preliminares</strong> </div>
+<br>
+
+
+# 
+
+<div style="text-align: center; font-size: 50px;"> <strong>Uso de Knowledge graphs (KGs)/redes semânticas para análise de polarização política em momentos extremos</strong> </div>
+<br>
+
+::: columns
+::: {.column width="50%"}
+::: {.incremental}
+
+- **Servem para a compreensão contextualizada de dados, especialmente em contextos de grandes volumes de informações heterogêneas**;
+<br><br>
+
+- **Em contexto políticos os KG ajudam a conectar conceitos possibilitando análises sobre as dinâmicas de narrativas (OSMONOVA; TIKHONOV; YAMSHCHIKOV, 2024)**;
+<br><br>
+
+:::
+:::
+::: {.column width="50%"}
+
+![](images/kg1.png)
+
+:::
+:::
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Uso de Knowledge graphs (KGs)/redes semânticas para análise de polarização política em momentos extremos</strong> </div>
 <br>
 
 ::: {.incremental}
 
-- **945k de mensagens de 01/01/2023 a 10/01/2023 em 207 grupos e 268 canais**;
+- **945k de mensagens de 01/01/2023 a 10/01/2023 em 207 grupos e 268 canais do Telegram**.  
 <br><br>
 
 - **Amostra de 7610 mensagens (5825 de grupos e 1785 de canais) que continham os termos “forças armadas” ou “militares”**; 
 <br><br>
 
-- **[Ponto 3]**.  
+- **Utilizamos o LLMGraphTransformer + gpt-4o-mini para: identificar entidades, relações, tipos de nós e conexões e extração de propriedades**.
 <br><br>
 
 :::
 
-# 
+## 
 
-<div style="text-align: center; font-size: 55px;"> <strong>TITULO</strong> </div>
+![](images/kg2.png){fig-align="center"}
+
+
+##
+
+##
+
+<div style="text-align: center; font-size: 55px;"> <strong>Uso de Knowledge graphs (KGs)/redes semânticas para análise de polarização política em momentos extremos</strong> </div>
 <br>
 
 ::: {.incremental}
 
-- **[Ponto 1]**;
+- **Em seguida, usamos os mesmos dados na plataforma [InfraNodus](https://infranodus.com/), apenas para acelerar o processo de visualização**;  
 <br><br>
 
-- **[Ponto 2]**; 
+- **KG resultante apresenta quatro grandes narrativas ou (clusters) principais: a) intervenção militar; b) força nacional; c) Brasil popular e d) governo Bolsonaro**; 
 <br><br>
 
-- **[Ponto 3]**.  
+- **Resultados são valiosos em cenários mutáveis em que precisamos entender os impacto de narrativas políticas no comportamento social (JUNGHERR, 2015).**.
+<br><br>
+:::
+
+## 
+
+<div style="text-align: center; font-size: 30px;"> <strong>Knowledge Graph de mensagens com os termos “forças armadas” ou “militares” (01/01/2023 - 00:00h a 10/01/2023 - 23:59h)</strong> </div>
+
+<br>
+
+![](images/infranodus1.svg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Intervenção Militar: expressa o papel dos militares e as demandas por intervenção</strong> </div> 
+
+
+![](images/infranodus2.svg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Governo Bolsonaro: inclui debates sobre dinâmicas políticas, críticas ao ex-presidente Lula e discursos sobre a legitimidade do novo governo</strong> </div> 
+
+
+![](images/infranodus5.svg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Força Nacional: refere-se à atuação da Força Nacional, explorando questões relacionadas à segurança pública para garantir a ordem no dia 08 de Janeiro</strong> </div> 
+
+
+![](images/infranodus4.svg){fig-align="center"}
+
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong> Brasil Popular: narrativas voltadas para a população brasileira, com um discurso mais emocional para a mobilização popular unida em torno de valores nacionais e religiosos</strong> </div> 
+
+
+![](images/infranodus3.svg){fig-align="center"}
+
+# 
+
+<div style="text-align: center; font-size: 55px;"> <strong>Clusterizar imagens de grupos masculinistas do Telegram</strong> </div>
+<br>
+
+::: {.incremental}
+
+- **22k de imagens de 10 grupos masculinistas postadas do surgimento até dezembro de 2024 **;
+<br><br>
+
+- **Aplicação do modelo CLIP (Contrastive Language-Image Pretraining), desenvolvido pela OpenAI**; 
+<br><br>
+
+- **Entender formas imagéticas de violência, mais difíceis de detecção automatizada**.  
 <br><br>
 
 :::
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 01</strong> </div> 
+
+
+![](images/mosaico_cluster_7.jpg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 02</strong> </div> 
+
+
+![](images/mosaico_cluster_10.jpg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 03</strong> </div> 
+
+
+![](images/mosaico_cluster_11.jpg){fig-align="center"}
+
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Cluster 04</strong> </div> 
+
+
+![](images/mosaico_cluster_15.jpg){fig-align="center"}
 
 
 # 
@@ -303,14 +422,25 @@ ____
 - **Amostra de 10k de imagens de 7 grupos anti-vacina de jan/dez de 2024**;
 <br><br>
 
-- **[Ponto 2]**; 
+- **Aplicação do modelo CLIP (Contrastive Language-Image Pretraining), desenvolvido pela OpenAI**; 
 <br><br>
 
-- **[Ponto 3]**.  
+- **Semântica Rica, Zero-Shot Learning e Escalabilidade**.  
 <br><br>
 
 :::
 
+#
+
+<div style="text-align: center; font-size: 30px;"> <strong>Frequência mensal de postagens das imagens nos grupos analisados </strong> </div> 
+
+
+![](images/antivax-tsvb.png){fig-align="center"}
+
+
+#
+
+![](images/pecs.png)
 
 
 # {background-iframe="colored-particles/index.html"}

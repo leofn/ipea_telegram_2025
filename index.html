@@ -444,7 +444,7 @@ A utilização <strong>sistemática e estratégica</strong> de ferramentas, tecn
 <ul>
 <li class="fragment"><p>Acesso aos dados <br><br></p></li>
 <li class="fragment"><p>Complexidade metodológica <br><br></p></li>
-<li class="fragment"><p>Acesso a recursos computacionais</p></li>
+<li class="fragment"><p>Recursos computacionais</p></li>
 </ul>
 </div>
 </section>
@@ -519,6 +519,188 @@ A utilização <strong>sistemática e estratégica</strong> de ferramentas, tecn
 </div>
 </div>
 </section></section>
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 55px;">
+<strong>Resultados preliminares</strong>
+</div>
+<p><br></p>
+</section>
+
+<section>
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 50px;">
+<strong>Uso de Knowledge graphs (KGs)/redes semânticas para análise de polarização política em momentos extremos</strong>
+</div>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div>
+<ul>
+<li class="fragment"><p><strong>Servem para a compreensão contextualizada de dados, especialmente em contextos de grandes volumes de informações heterogêneas</strong>; <br><br></p></li>
+<li class="fragment"><p><strong>Em contexto políticos os KG ajudam a conectar conceitos possibilitando análises sobre as dinâmicas de narrativas (OSMONOVA; TIKHONOV; YAMSHCHIKOV, 2024)</strong>; <br><br></p></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/kg1.png"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+<h2></h2>
+<div style="text-align: center; font-size: 55px;">
+<strong>Uso de Knowledge graphs (KGs)/redes semânticas para análise de polarização política em momentos extremos</strong>
+</div>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment"><p><strong>945k de mensagens de 01/01/2023 a 10/01/2023 em 207 grupos e 268 canais do Telegram</strong>.<br>
+<br><br></p></li>
+<li class="fragment"><p><strong>Amostra de 7610 mensagens (5825 de grupos e 1785 de canais) que continham os termos “forças armadas” ou “militares”</strong>; <br><br></p></li>
+<li class="fragment"><p><strong>Utilizamos o LLMGraphTransformer + gpt-4o-mini para: identificar entidades, relações, tipos de nós e conexões e extração de propriedades</strong>. <br><br></p></li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+<h2></h2>
+
+<img data-src="images/kg2.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+<h2></h2>
+</section>
+<section class="slide level2">
+<h2></h2>
+<div style="text-align: center; font-size: 55px;">
+<strong>Uso de Knowledge graphs (KGs)/redes semânticas para análise de polarização política em momentos extremos</strong>
+</div>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment"><p><strong>Em seguida, usamos os mesmos dados na plataforma <a href="https://infranodus.com/">InfraNodus</a>, apenas para acelerar o processo de visualização</strong>;<br>
+<br><br></p></li>
+<li class="fragment"><p><strong>KG resultante apresenta quatro grandes narrativas ou (clusters) principais: a) intervenção militar; b) força nacional; c) Brasil popular e d) governo Bolsonaro</strong>; <br><br></p></li>
+<li class="fragment"><p><strong>Resultados são valiosos em cenários mutáveis em que precisamos entender os impacto de narrativas políticas no comportamento social (JUNGHERR, 2015).</strong>. <br><br></p></li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+<h2></h2>
+<div style="text-align: center; font-size: 30px;">
+<strong>Knowledge Graph de mensagens com os termos “forças armadas” ou “militares” (01/01/2023 - 00:00h a 10/01/2023 - 23:59h)</strong>
+</div>
+<p><br></p>
+
+<img data-src="images/infranodus1.svg" class="quarto-figure quarto-figure-center r-stretch"></section></section>
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong>Intervenção Militar: expressa o papel dos militares e as demandas por intervenção</strong>
+</div>
+
+<img data-src="images/infranodus2.svg" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong>Governo Bolsonaro: inclui debates sobre dinâmicas políticas, críticas ao ex-presidente Lula e discursos sobre a legitimidade do novo governo</strong>
+</div>
+
+<img data-src="images/infranodus5.svg" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong>Força Nacional: refere-se à atuação da Força Nacional, explorando questões relacionadas à segurança pública para garantir a ordem no dia 08 de Janeiro</strong>
+</div>
+
+<img data-src="images/infranodus4.svg" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong> Brasil Popular: narrativas voltadas para a população brasileira, com um discurso mais emocional para a mobilização popular unida em torno de valores nacionais e religiosos</strong>
+</div>
+
+<img data-src="images/infranodus3.svg" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 55px;">
+<strong>Clusterizar imagens de grupos masculinistas do Telegram</strong>
+</div>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment"><p><strong>22k de imagens de XX grupos masculinistas de xxx/x de 20xx</strong>; <br><br></p></li>
+<li class="fragment"><p><strong>Aplicação do modelo CLIP (Contrastive Language-Image Pretraining), desenvolvido pela OpenAI</strong>; <br><br></p></li>
+<li class="fragment"><p><strong>Entender formas imagéticas de violência, mais difíceis de detecção automatizada</strong>.<br>
+<br><br></p></li>
+</ul>
+</div>
+</section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong>Cluster 01</strong>
+</div>
+
+<img data-src="images/mosaico_cluster_7.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong>Cluster 02</strong>
+</div>
+
+<img data-src="images/mosaico_cluster_10.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong>Cluster 03</strong>
+</div>
+
+<img data-src="images/mosaico_cluster_11.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong>Cluster 04</strong>
+</div>
+
+<img data-src="images/mosaico_cluster_15.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 55px;">
+<strong>Categorizar imagens de grupos anti-vacina em grupos do Telegram</strong>
+</div>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment"><p><strong>Amostra de 10k de imagens de 7 grupos anti-vacina de jan/dez de 2024</strong>; <br><br></p></li>
+<li class="fragment"><p><strong>Aplicação do modelo CLIP (Contrastive Language-Image Pretraining), desenvolvido pela OpenAI</strong>; <br><br></p></li>
+<li class="fragment"><p><strong>Semântica Rica, Zero-Shot Learning e Escalabilidade</strong>.<br>
+<br><br></p></li>
+</ul>
+</div>
+</section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+<div style="text-align: center; font-size: 30px;">
+<strong>Frequência mensal de postagens das imagens nos grupos analisados </strong>
+</div>
+
+<img data-src="images/antivax-tsvb.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+
+<section class="title-slide slide level1 center">
+<h1></h1>
+
+<img data-src="images/pecs.png" class="r-stretch"></section>
+
 <section class="title-slide slide level1 center" data-background-iframe="colored-particles/index.html">
 <h1></h1>
 <br>
