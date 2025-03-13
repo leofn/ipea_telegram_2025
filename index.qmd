@@ -18,9 +18,11 @@ format:
     preload-iframes: true
 ---
 
+# {background-iframe="colored-particles/index.html"}
+
 <br><br>
 <div style="text-align: center; font-size: 100px;"> <strong>Inteligência artificial na pesquisa sobre desinformação em saúde, extremismos políticos e análise de dados sociais</strong> </div>
-<div style="text-align: center; font-size: 60px;"> <strong>LABHDUFBA e PECS/ISC</strong> </div>
+<div style="text-align: center; font-size: 60px;"> <strong>LABHDUFBA</strong> </div>
 <div style="text-align: center; font-size: 50px;"> 14/03/2025 </div>
 
 ![](images/qrcode.png){.absolute bottom=0 right=5 width="275" height="300"}
