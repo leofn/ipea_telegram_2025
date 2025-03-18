@@ -1,4 +1,4 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Apresentação em ocasião da visita da OpenAI ao LABHDUFBA e o Instituto de Saúde Coletiva da UFBA
+# Apresentação para o IPEA em 26/03/2025 intitulada "Ecossistema multiplataforma de desinformação e radicalização: o caso do Telegram no Brasil (2020-2025)"
