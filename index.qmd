@@ -6,7 +6,7 @@ format:
     height: 900
     self-contained: false
     incremental: false
-    footer: "Slides by [Leonardo F. Nascimento](https://leofn.com) (@leofn3). Code available [on GitHub](https://github.com/LABHDUFBA/openai_ufba_2025)"
+    footer: "Slides by [Leonardo F. Nascimento](https://leofn.com) (@leofn3). Code available [on GitHub](https://github.com/leofn/ipea_telegram_2025)"
     theme: ["simple"]
     slide-number: c/t
     title-slide-attributes:
@@ -20,12 +20,15 @@ format:
 
 # {background-iframe="colored-particles/index.html"}
 
-<br><br>
-<div style="text-align: center; font-size: 100px;"> <strong>Inteligência artificial na pesquisa sobre desinformação em saúde, extremismos políticos e análise de dados sociais</strong> </div>
-<div style="text-align: center; font-size: 60px;"> <strong>LABHDUFBA</strong> </div>
-<div style="text-align: center; font-size: 50px;"> 14/03/2025 </div>
+<div style="text-align: center; font-size: 85px;"> <strong>Ecossistema multiplataforma de desinformação e radicalização: o caso do Telegram no Brasil (2020-2025)</strong> </div>
+<div style="text-align: center; font-size: 40px;"> <strong>Leonardo F. Nascimento - Bolsista IPEA  - Edital 30/2024</strong> </div>
+<div style="text-align: center; font-size: 40px; margin-bottom: 0;"> 26/03/2025 </div>
 
-![](images/qrcode.png){.absolute bottom=0 right=5 width="275" height="300"}
+<div style="text-align: center; margin-top: -10px;">
+  <img src="images/qrcode.png" width="275" height="300" />
+</div>
+
+
 
 ## 
 
@@ -56,28 +59,27 @@ format:
 
 ##
 
-<div style="text-align: center; font-size: 55px;"> <strong>O LABHDUFBA investiga, desde 2020, grupos e canais extremista do Telegram...</strong> </div>
+<div style="text-align: center; font-size: 55px;"> <strong>Desde 2021 eu investigo grupos e canais extremistas do Telegram</strong> </div>
 <br>
 
 ::: columns
 ::: {.column width="65%"}
-::: {.incremental}
 
-- Em parceria com PPGAS/UFSC (Prof. Letícia Cesarino) e apoio do InternetLab
+
+- Em parceria com PPGAS/UFSC (Profa. Letícia Cesarino) e apoio do InternetLab e CNPq;
 <br><br>
 
-- \+ de 70 milhões de mensagens
+- \+ de 70 milhões de mensagens;
 <br><br>
 
-- \+ 3.5 milhões de imagens e \+ de 900 mil vídeos
+- \+ 3.5 milhões de imagens e \+ de 900 mil vídeos;
 <br><br>
 
-- \+ de 3 milhões de links do Youtube
+- \+ de 3 milhões de links do Youtube;
 <br><br>
 
-- \+ 30 Terabytes de dados
+- \+ 30 Terabytes de dados.
 
-:::
 :::
 ::: {.column width="35%"}
 
